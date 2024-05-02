@@ -3,7 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: ofl;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 :root{
     /* ### Primary */
 
@@ -17,3 +20,61 @@
 --Off-Black: hsl(0, 0%, 8%);
 
 }
+body{
+    height: 100vh;
+    background-color: var(--Off-Black);
+    color: var(--White);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-family: ofl, 'Courier New', Courier, monospace;
+}
+
+.imo{
+    border-radius: 50%;
+}
+main{
+    display: grid;
+    /* grid-template-columns: 300px; */
+    align-items: center;
+    /* max-width: 700px; */
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: var(--Dark-Grey);
+}
+
+.linkage{
+    display: grid;
+    grid-template-columns: 5fr;
+    /* align-items: center; */
+
+}
+.image{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    color: var(--White);
+    background-color: var(--Grey);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.location{
+    color: var(--Green);
+}
+.para{
+    margin: 20px 0px 20px 0px;
+}
+button:hover{
+    color: var(--Off-Black);
+    font-weight: bold;
+    background-color: var(--Green);
+}
+
+
+
