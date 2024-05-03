@@ -27,11 +27,14 @@ body{
     display: grid;
     align-content: center;
     justify-content: center;
+    font-size: 0.8rem;
     font-family: ofl, 'Courier New', Courier, monospace;
 }
 
 .imo{
     border-radius: 50%;
+    width: 40%;
+    margin: auto;
 }
 main{
     display: grid;
@@ -54,7 +57,9 @@ main{
 .image{
     display: grid;
     align-items: center;
+    /* margin: auto; */
     justify-content: center;
+
 }
 button{
     padding: 10px;
@@ -62,13 +67,16 @@ button{
     color: var(--White);
     background-color: var(--Grey);
     border-radius: 10px;
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 .location{
     color: var(--Green);
 }
 .para{
     margin: 20px 0px 20px 0px;
+}
+h1{
+    margin: 5px 0px 5px 0px;
 }
 button:hover{
     color: var(--Off-Black);
