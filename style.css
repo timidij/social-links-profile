@@ -69,6 +69,22 @@ button{
     border-radius: 10px;
     margin: 0px 0px 10px 0px;
 }
+button >a{
+    text-decoration: none;
+    color: var(--White);
+}
+button >a:hover{
+    color: var(--White);
+}
+button>a:visited{
+    color: var(--White);
+}
+/* .bt>button{
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    width: 100%;
+} */
+
 .location{
     color: var(--Green);
 }
