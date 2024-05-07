@@ -35,13 +35,11 @@ body{
     border-radius: 50%;
     width: 40%;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 main{
     display: grid;
-    /* grid-template-columns: 300px; */
-    align-items: center;
-    /* max-width: 700px; */
-    align-content: center;
     text-align: center;
     padding: 20px;
     border-radius: 7px;
@@ -51,50 +49,41 @@ main{
 .linkage{
     display: grid;
     grid-template-columns: 5fr;
-    /* align-items: center; */
+
 
 }
 .image{
     display: grid;
     align-items: center;
-    /* margin: auto; */
     justify-content: center;
 
 }
-button{
-    padding: 10px;
-    border: none;
-    color: var(--White);
-    background-color: var(--Grey);
-    border-radius: 10px;
+
+
+.linkage > a{
     margin: 0px 0px 10px 0px;
-}
-button >a{
+    padding: 15px;
+    width: 100%;
     text-decoration: none;
     color: var(--White);
+    border: none;
+    background-color: var(--Grey);
+    border-radius: 7px;
 }
-button >a:hover{
-    color: var(--White);
-}
-button>a:visited{
-    color: var(--White);
-}
-/* .bt>button{
-    margin: 0px 0px 10px 0px;
-    padding: 10px;
-    width: 100%;
-} */
+
+
 
 .location{
     color: var(--Green);
+    font-size: 0.7rem;
 }
 .para{
     margin: 20px 0px 20px 0px;
 }
-h1{
-    margin: 5px 0px 5px 0px;
+h2{
+    margin: 10px 0px 10px 0px;
 }
-button:hover{
+.linkage> a:hover{
     color: var(--Off-Black);
     font-weight: bold;
     background-color: var(--Green);
